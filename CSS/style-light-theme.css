@@ -1,0 +1,144 @@
+@font-face{
+    font-family:"CenturyGothic";
+     src: url(../FONTS/GOTHICI.TTF);
+    }
+
+
+.text-center{
+    font-family: CenturyGothic;
+}
+
+body{font-size: 26px;
+     font-family: 'Times New Roman', Times, serif;
+    
+    }
+
+a {color: black;}
+a:hover{text-decoration: none;}
+
+#content{
+    background-color: white;
+}
+.bb{text-align: center;
+    background-color: black;}
+.bbs{height: 200px;
+     background-color: black;}
+.bg{
+    position: relative;
+    width: 85%;
+    height: 85%;
+    background-color: black;
+}
+
+.image{
+    width: 40%;
+    height: 40%;
+}
+
+
+.in_country{
+    background-color: #000;
+    
+}
+.country{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.bg_head{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    position:relative;	 
+    overflow:hidden;
+    background-color: #000;
+}
+
+.foo{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: CenturyGothic;
+}
+header>nav>ul>li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    width: 150px;
+    text-align: center;
+    margin: 2px;
+    transition: .5s;
+    height: 80px;
+}
+
+header>nav>ul>li>a{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+header>nav>ul>li:hover{
+    background: #ffa84a;
+    transition: .5s;
+    cursor: pointer;
+}
+
+header>nav>ul>li:hover>a{
+    color: rgb(109, 99, 81);
+    display: block;
+    transition: .5s;
+}
+
+
+
+.selection {
+    min-height: 90vh;
+    margin: 10px 5px;
+    border: 1px solid black;
+}
+
+.selection h2 {
+    font-size: 56px;
+    
+}
+
+
+
+
+body{background:#ECF0F1}
+
+hr{width: 90%;}
+.load{
+    position:absolute;
+    top:50%;left:50%;
+    transform:translate(-50%, -50%);
+  /*change these sizes to fit into your project*/
+  width:70px;
+  height:70px;
+}
+.load hr{
+    border:0;
+    margin:0;
+    width:40%;
+    height:40%;
+    position:absolute;
+    border-radius:50%;
+    animation:spin 3s ease infinite}
+
+.load :first-child{background:#19A68C;animation-delay:-2s}
+.load :nth-child(2){background:rgb(253, 110, 67);animation-delay:-1s}
+.load :last-child{background:rgb(27, 145, 192)}
+
+
+@keyframes spin{
+  0%,100%{transform:translate(100%,0)}
+  35%{transform:translate(200%, 100%)}
+  65%{transform:translate(0%,100%)}
+ 
+}
+
